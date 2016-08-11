@@ -11,9 +11,20 @@ public class Calc {
 		double result = a - b;
 		return result;
 	}
-	
-	public double mul(double a, double b) {
+
+	public double div(double a, double b) {
+		double result = a / b;
+		return result;
+	}
+public double mul(double a, double b) {
 		double result = a * b;
        return result;
 	}
+
+  public double add1(double c, double d) {
+	double result = c * d;
+   return result;
 }
+}
+
+
